@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eunji Draws</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <div><img class="logo" src="images/logo.png"></div>
+
+  <div class="menu">
+    <a id="night" onclick="clicknight()">Night</a>
+    <a id="village" onclick="clickvillage()">Village</a>
+    <a id="home" onclick="clickhome()">Home</a>
+    <a id="riverside" onclick="clickriver()">River</a>
+    <a id="mount" onclick="clickmount()">Mount</a>
+    <a id="violet" onclick="clickviolet()">Violet</a>
+  </div>
+  <div><img id="photo" src="images/night.jpg"></div>
+
+  <script>
+    function clicknight() {
+      document. getElementById('photo').src='images/night.jpg';
+      document. getElementById('night').style.color='black';
+      document. getElementById('village').style.color='#979797';
+      document. getElementById('home').style.color='#979797';
+      document. getElementById('riverside').style.color='#979797';
+      document. getElementById('mount').style.color='#979797';
+      document. getElementById('violet').style.color='#979797';
+    }
+    function clickvillage() {
+      document. getElementById('photo').src='images/Village.jpg';
+      document. getElementById('night').style.color='#979797';
+      document. getElementById('village').style.color='black';
+      document. getElementById('home').style.color='#979797';
+      document. getElementById('riverside').style.color='#979797';
+      document. getElementById('mount').style.color='#979797';
+      document. getElementById('violet').style.color='#979797';
+    }
+    function clickhome() {
+      document. getElementById('photo').src='images/home.jpg';
+      document. getElementById('night').style.color='#979797';
+      document. getElementById('village').style.color='#979797';
+      document. getElementById('home').style.color='black';
+      document. getElementById('riverside').style.color='#979797';
+      document. getElementById('mount').style.color='#979797';
+      document. getElementById('violet').style.color='#979797';
+    }
+    function clickriver() {
+      document. getElementById('photo').src='images/riverside.jpg';
+      document. getElementById('night').style.color='#979797';
+      document. getElementById('village').style.color='#979797';
+      document. getElementById('home').style.color='#979797';
+      document. getElementById('riverside').style.color='black';
+      document. getElementById('mount').style.color='#979797';
+      document. getElementById('violet').style.color='#979797';
+    }
+    function clickmount() {
+      document. getElementById('photo').src='images/mount.png';
+      document. getElementById('night').style.color='#979797';
+      document. getElementById('village').style.color='#979797';
+      document. getElementById('home').style.color='#979797';
+      document. getElementById('riverside').style.color='#979797';
+      document. getElementById('mount').style.color='black';
+      document. getElementById('violet').style.color='#979797';
+    }
+    function clickviolet() {
+      document. getElementById('photo').src='images/violet.jpg';
+      document. getElementById('night').style.color='#979797';
+      document. getElementById('village').style.color='#979797';
+      document. getElementById('home').style.color='#979797';
+      document. getElementById('riverside').style.color='#979797';
+      document. getElementById('mount').style.color='#979797';
+      document. getElementById('violet').style.color='black';
+    }
+  </script>
+  
+</body>
+</html>
